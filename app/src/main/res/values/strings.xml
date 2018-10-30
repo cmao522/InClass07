@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Profile</string>
+    <string name="myAvatarText">My Avatar</string>
+    <string name="departmentNameText">Department:</string>
+    <string name="buttonSaveText">Save</string>
+    <string name="rb_CS_Txt">CS</string>
+    <string name="rb_SIS_Txt">SIS</string>
+    <string name="rb_BIO_Txt">BIO</string>
+    <string name="rb_OTHER_Txt">Other</string>
+    <string name="hintFN">First Name</string>
+    <string name="hintLN">Last Name</string>
+    <string name="hintStudentID">Student ID</string>
+    <string name="txtViewFName">First Name</string>
+    <string name="txtViewLName">Last Name</string>
+    <string name="txtViewStudentID">Student ID</string>
+    <string name="displayName">Name:</string>
+    <string name="displayStudentID">Student ID:</string>
+    <string name="displayDepart">Department:</string>
+    <string name="editButton">Edit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

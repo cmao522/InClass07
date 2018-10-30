@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectAvatarFragment">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SelectAvatar">
+
+        <ImageView
+            android:id="@+id/femaleOneID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/femaleTwoID"
+            app:layout_constraintRight_toLeftOf="@id/maleOneID"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/avatar_f_1" />
+
+        <ImageView
+            android:id="@+id/femaleTwoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/femaleThreeID"
+            app:layout_constraintRight_toLeftOf="@+id/maleTwoID"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/femaleOneID"
+            app:srcCompat="@drawable/avatar_f_2" />
+
+        <ImageView
+            android:id="@+id/femaleThreeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/femaleTwoID"
+            app:layout_constraintRight_toLeftOf="@id/maleThreeID"
+            app:srcCompat="@drawable/avatar_f_3" />
+
+        <ImageView
+            android:id="@+id/maleOneID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toTopOf="@id/maleTwoID"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/femaleOneID"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/avatar_m_1" />
+
+        <ImageView
+            android:id="@+id/maleTwoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toTopOf="@id/maleThreeID"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/femaleTwoID"
+            app:layout_constraintTop_toBottomOf="@+id/maleOneID"
+            app:srcCompat="@drawable/avatar_m_2" />
+
+        <ImageView
+            android:id="@+id/maleThreeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/femaleThreeID"
+            app:layout_constraintTop_toBottomOf="@+id/maleTwoID"
+            app:layout_constraintVertical_bias="0.325"
+            app:srcCompat="@drawable/avatar_m_3" />
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
